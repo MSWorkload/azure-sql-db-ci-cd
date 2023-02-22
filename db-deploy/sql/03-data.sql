@@ -28,7 +28,7 @@ update
 set 
     Steps = 3450
 where 
-    Id = 13
+    Id = 1
 
 /*
     Delete someting

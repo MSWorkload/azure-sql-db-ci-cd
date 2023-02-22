@@ -10,7 +10,9 @@ namespace AzureSQLDevelopers.Database.Deploy
         {
             DotNetEnv.Env.Load();
 
-            var connectionString = Environment.GetEnvironmentVariable("ConnectionString");
+            var connectionString = "Server=tcp:dacpacsvr.database.windows.net,1433;Database=demoDbUp;Persist Security Info=False;User ID=github_action_user;Password=S0meVery_Very+Str0ngPazzworD!;Encrypt=true;TrustServerCertificate=False;Connection Timeout=30;";
+
+                //Environment.GetEnvironmentVariable("ConnectionString");
 
             var upgrader = DeployChanges.To
                 .SqlDatabase(connectionString)
