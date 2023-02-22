@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <None Update=".env">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="sql\01-change-tracking-setup.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
