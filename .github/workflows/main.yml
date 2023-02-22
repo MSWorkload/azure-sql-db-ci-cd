@@ -34,7 +34,9 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1.4.0
       with:
-        dotnet-version: '3.1.100' 
+        dotnet-version: '3.1.100'
+      env:
+       ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: Restore dependencies 
       working-directory: db-test
       run: dotnet restore      
