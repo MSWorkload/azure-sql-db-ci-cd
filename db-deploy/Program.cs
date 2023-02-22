@@ -12,9 +12,6 @@ namespace AzureSQLDevelopers.Database.Deploy
 
             var connectionString = Environment.GetEnvironmentVariable("ConnectionString");
             
-
-            
-
             var upgrader = DeployChanges.To
                 .SqlDatabase(connectionString)
                 .JournalToSqlTable("dbo", "$__schema_journal")
