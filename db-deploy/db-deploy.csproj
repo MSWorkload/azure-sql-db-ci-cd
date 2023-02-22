@@ -24,7 +24,7 @@
     <None Update="sql\03-data.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="sql\update.sql">
+    <None Update="sql\update-today.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
