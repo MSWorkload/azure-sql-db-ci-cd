@@ -2,6 +2,6 @@
 update 
     dbo.TrainingSession 
 set 
-    Steps = 3455
+    Steps = 1000
 where 
     Id = 1
