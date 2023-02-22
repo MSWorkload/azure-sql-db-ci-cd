@@ -99,4 +99,4 @@ If you want a more complex scenario, you can apply what you have learned to the 
 
 https://github.com/Azure-Samples/azure-sql-db-sync-api-change-tracking
 
-##Minor changes
+##Minor change!
